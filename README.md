@@ -27,9 +27,7 @@ An artifact for submission of NFM 2021
 
 ### Installing Breach
 
-1. Open Matlab;
-
-2. Install breach following instructions in https://github.com/decyphir/breach, which consists in
+Install breach following instructions in https://github.com/decyphir/breach, which consists in
 
 - setup a C/C++ compiler using command ’mex -setup’
 – Please check [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for instructions on how to select the compiler for different operating systems.
