@@ -34,9 +34,7 @@ sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab
 2. Install breach following instructions in https://github.com/decyphir/breach, which consists in
 
 - setup a C/C++ compiler using command ’mex -setup’
-– Please check here for instructions on how to select the compiler for different
-operating systems: https://www.mathworks.com/help/matlab/matlab_
-external/changing-default-compiler.html
+– Please check [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for instructions on how to select the compiler for different operating systems.
 
 - run ’InstallBreach’
 
