@@ -25,7 +25,7 @@ sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab
 
 2. git clone https://github.com/choshina/FalSTAR-NFM.git
 
-3. "git submodule init" and then "git submodule update" to obtain breach (https://github.com/decyphir/breach)
+3. "git submodule init" and then "git submodule update" to obtain [breach] (https://github.com/decyphir/breach)
 
 ### Installing Breach
 
