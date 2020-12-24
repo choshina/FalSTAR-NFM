@@ -21,22 +21,21 @@ Linux:  write to ~/.bashrc
 
 and restart the console.
 
-sanity check: type 'matlab' in commandline and you can open Matlab
+sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab in commandline
 
-2. Python 2.7
+2. git clone https://github.com/choshina/FalSTAR-NFM.git
+
+3. "git submodule init" and then "git submodule update" to obtain breach
 
 ### Installing Breach
 
 1. Open Matlab;
 
-2. clone Breach from https://github.com/decyphir/breach, and reset it to version 1.2.13. Put it under 'src/' and name it as 'breach_1213'.
+2. Install breach following instructions in https://github.com/decyphir/breach, which consists in
 
-3. move to folder “FalStar-MAB/src/breach 1213/” of the cloned repository (either
-from command line or using the browsing facilities of the GUI);
-
-4. setup a C/C++ compiler using command ’mex -setup’
+- setup a C/C++ compiler using command ’mex -setup’
 – Please check here for instructions on how to select the compiler for different
 operating systems: https://www.mathworks.com/help/matlab/matlab_
 external/changing-default-compiler.html
 
-5. run ’InstallBreach’
+- run ’InstallBreach’
