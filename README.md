@@ -25,7 +25,7 @@ sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab
 
 2. git clone https://github.com/choshina/FalSTAR-NFM.git
 
-3. "git submodule init" and then "git submodule update" to obtain breach
+3. "git submodule init" and then "git submodule update" to obtain breach(https://github.com/decyphir/breach)
 
 ### Installing Breach
 
@@ -39,3 +39,16 @@ operating systems: https://www.mathworks.com/help/matlab/matlab_
 external/changing-default-compiler.html
 
 - run ’InstallBreach’
+
+# Usage:
+## Reproducing experiments in Table 2
+
+- run "python begin.py [specification ID]" in a terminal with a specification ID assigned. Then a column in Table 2 will run. 
+
+## Customize testing
+
+Customization of testing configuration can be done via the following steps:
+
+1. "vi src/scriptgen/config/breach/[a configuration file]", e.g., breach_at.conf 
+
+2. s
