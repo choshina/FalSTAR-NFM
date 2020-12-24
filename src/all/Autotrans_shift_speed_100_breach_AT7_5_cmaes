@@ -2,7 +2,7 @@
 csv=$1
 matlab -nodesktop -nosplash <<EOF
 clear;
-addpath(genpath('breach-1.2.13/'));
+addpath(genpath('breach/'));
 addpath(genpath('src/test/simulink/'));
 InitBreach;
 
@@ -48,3 +48,4 @@ result = table(filename, spec, falsified, time,  obj_best, num_sim);
 writetable(result,'$csv','Delimiter',';');
 quit
 EOF
+
