@@ -25,7 +25,7 @@ sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab
 
 2. git clone https://github.com/choshina/FalSTAR-NFM.git
 
-3. "git submodule init" and then "git submodule update" to obtain breach(https://github.com/decyphir/breach)
+3. "git submodule init" and then "git submodule update" to obtain breach (https://github.com/decyphir/breach)
 
 ### Installing Breach
 
@@ -51,4 +51,12 @@ Customization of testing configuration can be done via the following steps:
 
 1. "vi src/scriptgen/config/breach/[a configuration file]", e.g., breach_at.conf 
 
-2. s
+2. Change parameters, e.g., to run less trials rather than 30, it can be modified to "10"
+
+3. "cd src/scriptgen/" and "python breach_test.py config/breach/[the configuration file modified]"
+
+4. Go back to the root folder and run "make"
+
+## Regarding RQ3
+
+
