@@ -7,7 +7,7 @@ An artifact for submission of NFM 2021
 
 - Operating system: Linux or MacOS;
 
-- Matlab version: >= 2017.
+- Matlab version: >= 2017. (Matlab license needed)
 
 
 ## Installation
@@ -59,4 +59,4 @@ Customization of testing configuration can be done via the following steps:
 
 ## Regarding RQ3
 
-
+- Go to the directory "RQ3" and run "main" in Matlab. 
