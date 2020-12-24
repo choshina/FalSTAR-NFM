@@ -13,15 +13,13 @@ An artifact for submission of NFM 2021
 ## Installation
 1. make sure that Matlab directory is in your system path.
 
-Mac OS:  write to ~/.bash_profile
+	- Mac OS:  write to ~/.bash_profile
 
-Linux:  write to ~/.bashrc
+	- Linux:  write to ~/.bashrc
 
-'export PATH=$PATH:[your Matlab path]/bin'
+		'export PATH=$PATH:[your Matlab path]/bin' and restart the console.
 
-and restart the console.
-
-sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab in commandline
+	- sanity check: type 'matlab -nodesktop' in a terminal and then you can use Matlab in commandline
 
 2. git clone https://github.com/choshina/FalSTAR-NFM.git
 
