@@ -1,5 +1,5 @@
 # FalSTAR-NFM
-An artifact for submission of NFM 2021
+Artifact evaluation for NFM 2021 submission "On the Effectiveness of Signal Rescaling in Hybrid System Falsification"
 
 
 # Install
@@ -35,10 +35,16 @@ Install breach following instructions in https://github.com/decyphir/breach, whi
 - run ’InstallBreach’
 
 # Usage:
-## Reproduce experiments in Table 2
+## Reproduce the experiments reported in Table 2 (RQ1 and RQ2) of the paper
 
-- run "python begin.py [specification ID]" in a terminal with a specification ID assigned. Then a column in Table 2 will run. 
-> The worst case running time for a single specification is 5 hours, due to our setting of timeout 600s and trials 30. However, it is usually not that long because successful trials return as soon as they find falsifying input.
+- In order to reproduce the results of a given "specification ID" of Table 2 of the paper, run the following command:
+```bash
+$ python begin.py [specification ID]
+```
+The specificaition IDs used in the experiments of the paper are: AT1, AT2, AT3, AT4, AT5, AT6, AT7, AT8, AT9, AFC1, AFC2, AFC3.
+
+
+> Note that the worst case running time for a single specification is 5 hours, due to our setting of timeout 600s and trials 30. However, it is usually not that long because successful trials return as soon as they find a falsifying input.
 
 ## Customize testing
 
@@ -52,7 +58,7 @@ Customization of testing configuration can be done via the following steps:
 
 4. Go back to the root folder and run "make"
 
-## Regarding RQ3
+## Reproduce the experiments reported in Fig. 1 and RQ3 of the paper
 
 - Go to the directory "RQ3" and run "main" in Matlab. 
 
