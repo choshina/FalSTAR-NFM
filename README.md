@@ -35,9 +35,10 @@ Install breach following instructions in https://github.com/decyphir/breach, whi
 - run ’InstallBreach’
 
 # Usage:
-## Reproducing experiments in Table 2
+## Reproduce experiments in Table 2
 
 - run "python begin.py [specification ID]" in a terminal with a specification ID assigned. Then a column in Table 2 will run. 
+> The worst case running time for a single specification is 5 hours, due to our setting of timeout 600s and trials 30. However, it is usually not that long because successful trials return as soon as they find falsifying input.
 
 ## Customize testing
 
@@ -54,3 +55,5 @@ Customization of testing configuration can be done via the following steps:
 ## Regarding RQ3
 
 - Go to the directory "RQ3" and run "main" in Matlab. 
+
+- Configure main.m for running different model and specification.
