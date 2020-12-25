@@ -56,7 +56,7 @@ Customization of the testing configuration can be done via the following steps:
 
 2. Change parameters, e.g., to run less trials rather than 30, it can be modified to "10"
 
-3. "cd src/scriptgen/" and "python breach_test.py config/breach/[the configuration file modified]"
+3. "cd src/scriptgen/" and "python breach_test.py config/breach/[the configuration file modified in step 1]"
 
 4. Go back to the root folder and run "make"
 
