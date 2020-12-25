@@ -1,4 +1,5 @@
 import sys
+import os
 
 model = ''
 algorithm = '' 
@@ -141,3 +142,4 @@ for ph in phi_str:
 				bm.write('writetable(result,\'$csv\',\'Delimiter\',\';\');\n')
 				bm.write('quit\n')
 				bm.write('EOF\n')
+os.system('chmod 777 ../benchmarks/*')
