@@ -1,5 +1,7 @@
 # FalSTAR-NFM
-Artifact evaluation for NFM 2021 submission "On the Effectiveness of Signal Rescaling in Hybrid System Falsification"
+Artifact evaluation for NFM 2021 submission
+"On the Effectiveness of Signal Rescaling in Hybrid System Falsification"
+by Zhenya Zhang, Deyun Lyu, Paolo Arcaini, Lei Ma, Ichiro Hasuo and Jianjun Zhao
 
 
 # Install
@@ -27,7 +29,7 @@ Artifact evaluation for NFM 2021 submission "On the Effectiveness of Signal Resc
 
 ### Installing Breach
 
-Install breach following instructions in https://github.com/decyphir/breach, which consists in
+Install Breach following instructions in https://github.com/decyphir/breach, which consists in
 
 - setup a C/C++ compiler using command ’mex -setup’
 – Please check [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for instructions on how to select the compiler for different operating systems.
@@ -44,11 +46,11 @@ $ python begin.py [specification ID]
 The specificaition IDs used in the experiments of the paper are: AT1, AT2, AT3, AT4, AT5, AT6, AT7, AT8, AT9, AFC1, AFC2, AFC3.
 
 
-> Note that the worst case running time for a single specification is 5 hours, due to our setting of timeout 600s and trials 30. However, it is usually not that long because successful trials return as soon as they find a falsifying input.
+> Note that the worst case running time for a single specification is 5 hours, due to our setting of timeout 600s and trials 30. However, it is usually not that long because successful trials return as soon as they find a falsifying input. If you want to reduce the timeout and/or the number of trials, you can customize the testing configuration as explained below.
 
-## Customize testing
+## Customize the testing configuration
 
-Customization of testing configuration can be done via the following steps:
+Customization of the testing configuration can be done via the following steps:
 
 1. "vi src/scriptgen/config/breach/[a configuration file]", e.g., breach_at.conf 
 
@@ -62,4 +64,4 @@ Customization of testing configuration can be done via the following steps:
 
 - Go to the directory "RQ3" and run "main" in Matlab. 
 
-- Configure main.m for running different model and specification.
+- Configure main.m for running different models and specifications.
